@@ -1,11 +1,8 @@
 <?php
-namespace Rbo\CustomScripts\Controller\Adminhtml\Category\Thumbnail;
+namespace Namespace\CustomScripts\Controller\Adminhtml\Category\Thumbnail;
 
 use Magento\Framework\Controller\ResultFactory;
 
-/**
- * Agorae Adminhtml Category Image Upload Controller
- */
 class Upload extends \Magento\Backend\App\Action
 {
     /**
@@ -84,7 +81,7 @@ class Upload extends \Magento\Backend\App\Action
      */
     protected function _isAllowed()
     {
-        return $this->_authorization->isAllowed('Rbo_CustomScripts::category');
+        return $this->_authorization->isAllowed('Namespace_CustomScripts::category');
     }
 
     /**
