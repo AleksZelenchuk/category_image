@@ -5,6 +5,6 @@
 
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'Rbo_CustomScripts',
+    'Namespace_CustomScripts',
     __DIR__
 );
