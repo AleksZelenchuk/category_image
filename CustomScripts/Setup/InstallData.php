@@ -1,5 +1,5 @@
 <?php
-namespace Rbo\CustomScripts\Setup;
+namespace Namespace\CustomScripts\Setup;
 
 use Magento\Eav\Setup\EavSetup;
 use Magento\Eav\Setup\EavSetupFactory;
