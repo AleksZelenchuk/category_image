@@ -1,5 +1,5 @@
 <?php
-namespace Rbo\CustomScripts\Model\Category;
+namespace Namespace\CustomScripts\Model\Category;
 
 class DataProvider extends \Magento\Catalog\Model\Category\DataProvider
 {
